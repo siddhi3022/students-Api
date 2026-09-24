@@ -6,7 +6,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/siddhi3022/students-Api.git'
+                    url: 'github.com/siddhi3022/student-demo.git'
             }
         }
 
